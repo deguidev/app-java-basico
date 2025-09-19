@@ -43,6 +43,10 @@ public class MiAplicacion {
                 System.out.println("Bienvenidos a Estructuras de control");
                 ArregloColecciones ac = new ArregloColecciones();
                 ac.arreglo();
+            
+            case 6:
+                System.out.println("Bienvenidos Piedra, Papel o Tijera");
+                
             default:
                 System.out.println("Opción Invalidad");
         }
